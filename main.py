@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from flask_mysqldb import MySQL
 app = Flask(__name__)
 
-
+#Adding some comments random comments
 app.config['MYSQL_HOST'] = 'database-1.c1xgaop7mcps.ap-south-1.rds.amazonaws.com'
 app.config['MYSQL_USER'] = 'admin'
 app.config['MYSQL_PASSWORD'] = 'admin123'
